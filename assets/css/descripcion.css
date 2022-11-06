@@ -1,0 +1,37 @@
+.descripcion__infografia{
+    margin: 1.5rem 0 3rem;
+}
+
+.descripcion__texto{
+    display: flex;
+    margin: 1rem;
+    
+}
+
+.descripcion__parrafo{
+    padding-top: 0;
+    margin: 0 1rem 2rem;
+}
+
+.descripcion__parrafo_linea{
+    padding: .75em;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 1rem 1rem 2rem;
+}
+
+.interlinea{
+margin-top: 2rem;
+}   
+
+/*Mobile*/
+@media (min-width: 426px) {
+    
+    .descripcion__parrafo{
+        display: block;
+    }
+
+    .column-count{
+        display: none;
+    }
+}

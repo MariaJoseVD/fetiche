@@ -1,0 +1,16 @@
+.sets__infografia__contenedor{
+    margin: 4em 0 6em 0;
+}
+
+.sets__boton{
+    margin-left: 63%;
+    margin-top: -30%;
+}
+
+/*Mobile*/
+@media (max-width: 653px) {
+    .sets__boton{
+        margin-left: 0;
+        margin-top: -30%;
+    }
+}

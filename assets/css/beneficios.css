@@ -1,0 +1,26 @@
+.beneficios__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    Justify-content: space-between;
+    align-content: flex-start;
+    padding-top: 3%;
+    margin-bottom: 6%;
+}
+
+.beneficios__name_titulo{
+    padding: 0;
+    margin: .2em
+}
+
+.beneficios__name{
+    font-weight: 700;
+}
+
+@media (max-width: 425px) {
+
+    .beneficios__container{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,82 @@
+ #contacto{
+    background-color: var(--color-de-fondo-dark);
+    padding: 2%;
+    margin: 6% -5.5% 0 -5.5%;
+}
+.formcontato__contacto{
+    width: 85%;
+    max-width: 1420px;
+    margin: auto;
+}
+
+.formcontato__caja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6%;
+}
+
+.formcontato__form{
+    min-width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__input{
+    min-width: 50%;
+    padding: 3%;
+    margin-bottom: 5%;
+    border: none;
+}
+
+.formcontato__textarea{
+    padding-inline: 3%;
+    border: none;
+}
+
+textarea {
+    height: 200px;
+    overflow: scroll;
+    resize: none;
+}
+.formcontato__boton{
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 1.4rem;
+    border: 2px solid var(--color-gris-medio);
+    cursor: pointer;
+    color: var(--color-de-fondo);
+    background-color: var(--color-gris-medio);
+    height: 20%;
+}
+
+/*Tablet*/
+@media (max-width: 810px) {
+
+    
+    .formcontato__form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .formcontato__input{
+        min-width: 50%;
+        padding: 3%;
+        margin-bottom: 5%;
+        border: none;
+    }
+    
+    .formcontato__textarea{
+        padding-inline: 3%;
+        border: none;
+    }
+    
+    textarea {
+        height: 200px;
+        overflow: scroll;
+        resize: none;
+    }
+
+    
+}
