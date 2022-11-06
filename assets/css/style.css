@@ -96,10 +96,14 @@ p {
 /*Mobile*/
 @media (max-width: 450px) {
     body {
-        line-height: 1.4;
+        line-height: 1.2;
     }
 
     h1 {
+        font-size: 1rem;
+    }
+
+    p {
         font-size: 1rem;
     }
  }

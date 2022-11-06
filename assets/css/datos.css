@@ -24,10 +24,6 @@ h4{
     margin: 0;
 }
 
-.porciento{
-    font-variant-position: super;
-}
-
 .data__texto{
     margin-top: 1rem;
 }
@@ -47,5 +43,20 @@ h4{
     
     .data__box{
         width: calc(90%/2);
+    }
+}
+
+@media (max-width: 500px){
+
+   .data__titulo{
+    margin-bottom: 1%;
+    }
+
+    .porciento{
+        font-size: 28px;
+    }
+
+    .data__texto__fuente{
+        margin-bottom: 3em;
     }
 }

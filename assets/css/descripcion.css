@@ -4,8 +4,7 @@
 
 .descripcion__texto{
     display: flex;
-    margin: 1rem;
-    
+
 }
 
 .descripcion__parrafo{
@@ -31,7 +30,7 @@ margin-top: 2rem;
         display: block;
     }
 
-    .column-count{
-        display: none;
+    .descripcion__texto{
+        margin: 0; 
     }
 }

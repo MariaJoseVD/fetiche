@@ -49,3 +49,21 @@
 	100% {margin-left: -300%;}
 }
 
+@media (max-width: 500px){
+
+    .llamada__contenedor__logo{
+        position:relative; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        left: 0px; 
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: -20px;
+        background-color: #ebeae3;
+        padding: 6% 4% 4% 0;
+        }
+
+    }
+
+
