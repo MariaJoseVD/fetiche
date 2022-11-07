@@ -30,6 +30,7 @@
 }
 
 .formcontato__textarea{
+    padding-top: 3%;
     padding-inline: 3%;
     border: none;
 }
