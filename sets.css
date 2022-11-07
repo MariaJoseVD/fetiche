@@ -1,0 +1,58 @@
+.sets__infografia__contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: -15 0 5% 0;
+
+}
+
+.sets__boton__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sets__infografia{
+    width: 90%;
+    height: 90%;
+}
+.sets__infografia__lateral{
+    width: 45%;
+}
+
+.sets__boton{
+    margin: 0 0 10% 0;
+}
+
+
+/*tablet*/
+@media (max-width: 920px) {
+    .sets__boton{
+        margin: 0 0 10% 0;
+    }
+
+    .sets__infografia__contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sets__infografia{
+        width: 100%;
+    }
+    .sets__infografia__lateral{
+        width: 60%;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 420px) {
+
+    .sets__infografia{
+        width: 100%;
+        height: 100%;
+    }
+
+    .sets__infografia__lateral{
+        width: 70%;
+    }
+}
