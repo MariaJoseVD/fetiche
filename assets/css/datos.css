@@ -55,11 +55,12 @@ h4{
 @media (max-width: 500px){
 
    .data__titulo{
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     }
 
     .porciento{
         font-size: 28px;
+        margin-bottom: 4%;
     }
 
     .data__texto__fuente{
