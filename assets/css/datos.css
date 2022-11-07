@@ -24,6 +24,12 @@ h4{
     margin: 0;
 }
 
+.porciento{
+    font-size: xx-large;
+    padding-bottom: 20%;
+    margin-bottom: 20%;
+}
+
 .data__texto{
     margin-top: 1rem;
 }

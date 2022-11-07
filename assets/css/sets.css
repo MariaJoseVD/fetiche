@@ -1,16 +1,35 @@
 .sets__infografia__contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     margin: 4em 0 6em 0;
 }
 
+.sets__boton__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .sets__boton{
-    margin-left: 63%;
-    margin-top: -30%;
+    margin-left: 0;
+    margin-top: -20%;
 }
 
 /*Mobile*/
 @media (max-width: 653px) {
     .sets__boton{
         margin-left: 0;
-        margin-top: -30%;
+        margin-top: -20%;
+    }
+
+    .sets__infografia__contenedor{
+        flex-direction: column;
+    }
+
+    .sets__boton{
+        margin-top: -40%;
     }
 }

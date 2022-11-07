@@ -19,6 +19,11 @@ main{
     margin: 5% ;
 }
 
+h1{
+    font-size: 2.8em;
+    margin: 0.67em 0;
+}
+
 h2 {
     color: var(--color-de-destacados);
     font-size: 1.2rem;
@@ -89,18 +94,18 @@ p {
     .sets__boton{
         margin-top: .5rem;
         padding: .75rem 1.5rem;
-
     }
  }
 
 /*Mobile*/
 @media (max-width: 450px) {
-    body {
-        line-height: 1.2;
+
+    h2 {
+        font-size: 1rem;
     }
 
     h1 {
-        font-size: 1rem;
+        font-size: 1.8rem;
     }
 
     p {
