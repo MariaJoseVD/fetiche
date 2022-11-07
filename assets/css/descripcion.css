@@ -23,14 +23,18 @@
 margin-top: 2rem;
 }   
 
+/*Tablet*/
+@media (max-width: 840px){
+    .descripcion__texto{
+        flex-direction: column;
+
+    }
+}
+
 /*Mobile*/
 @media (min-width: 426px) {
     
-    .descripcion__parrafo{
-        display: block;
-    }
-
     .descripcion__texto{
-        margin: 0; 
+        margin: 5%; 
     }
 }

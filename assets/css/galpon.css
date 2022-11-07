@@ -56,7 +56,7 @@
 }
 
 /*Tablet*/
-@media (max-width: 810px) {
+@media (max-width: 920px) {
     
      .slider{
         display: flex;
