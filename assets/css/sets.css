@@ -4,6 +4,7 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     margin: 4em 0 6em 0;
+    height: 100%;
 }
 
 .sets__boton__div{
@@ -18,8 +19,8 @@
     margin-top: -20%;
 }
 
-/*Mobile*/
-@media (max-width: 653px) {
+/*tablet*/
+@media (max-width: 820px) {
     .sets__boton{
         margin-left: 0;
         margin-top: -20%;
@@ -31,5 +32,18 @@
 
     .sets__boton{
         margin-top: -40%;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 820px) {
+    .sets__boton{
+        margin-left: 0;
+        margin-top: -20%;
+
+    }
+
+    .sets__infografia__contenedor{
+        flex-direction: column;
     }
 }

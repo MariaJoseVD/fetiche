@@ -60,10 +60,17 @@ h4{
 
     .porciento{
         font-size: 28px;
+        margin-top: -20%;
         margin-bottom: 4%;
+        padding-bottom: 20px;
     }
 
     .data__texto__fuente{
         margin-bottom: 3em;
+        padding-bottom: 20px;
+    }
+
+    li{
+        padding-bottom: 10px;
     }
 }
