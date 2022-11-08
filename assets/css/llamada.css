@@ -6,10 +6,15 @@
 
 .llamada__contenedor__logo{
     position:absolute; 
-    left:50px; 
-    top:20px;
+    left: 25px; 
+    top: 15px;
     padding-top: 10px;
     z-index: 2;
+}
+
+.head__logo{
+    max-width: 150%;
+    width: 65%;
 }
 
 .llamada__container__slider{
@@ -49,21 +54,38 @@
 	100% {margin-left: -300%;}
 }
 
-@media (max-width: 500px){
+@media (min-width: 450px){
 
     .llamada__contenedor__logo{
-        position:relative; 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        left: 0px; 
-        align-items: center;
-        margin-bottom: 20px;
-        margin-top: -20px;
-        background-color: #ebeae3;
-        padding: 6% 4% 4% 0;
-        }
-
+        left: 40px; 
+        top:20px;
     }
+        
+    .head__logo{
+        width: 100%;
+    }
+}
 
+@media (min-width: 600px){
 
+    .llamada__contenedor__logo{
+        left:50px; 
+        top:20px;
+    }
+        
+    .head__logo{
+        width: 120%;
+    }
+}
+
+@media (min-width: 800px){
+
+    .llamada__contenedor__logo{
+        left:50px; 
+        top:20px;
+    }
+        
+    .head__logo{
+        width: 150%;
+    }
+}
