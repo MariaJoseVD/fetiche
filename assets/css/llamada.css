@@ -13,8 +13,7 @@
 }
 
 .head__logo{
-    max-width: 150%;
-    width: 65%;
+    width: 30vh;
 }
 
 .llamada__container__slider{
@@ -58,11 +57,11 @@
 
     .llamada__contenedor__logo{
         left: 40px; 
-        top:20px;
+        top: 20px;
     }
         
     .head__logo{
-        width: 100%;
+        width: 50vh;
     }
 }
 
@@ -70,11 +69,11 @@
 
     .llamada__contenedor__logo{
         left:50px; 
-        top:20px;
+        top: 20pxh;
     }
         
     .head__logo{
-        width: 120%;
+        width: 60vh;
     }
 }
 
@@ -86,6 +85,6 @@
     }
         
     .head__logo{
-        width: 150%;
+        width: 80vh;
     }
 }
