@@ -135,4 +135,9 @@
         width: 60%;
     }
 
+    .footer__contenedor__logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
