@@ -63,3 +63,11 @@
 
 
 }
+
+@media (max-width: 340px){
+
+    .beneficios__name_titulo{
+        margin-bottom: -10%;
+    }
+
+}

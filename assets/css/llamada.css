@@ -53,6 +53,20 @@
 	100% {margin-left: -300%;}
 }
 
+
+@media (max-width: 340px){
+
+    .llamada__contenedor__logo{
+        left: 20px; 
+        top: 7px;
+    }
+        
+    .head__logo{
+        width: 25vh;
+    }
+
+}
+
 @media (min-width: 450px){
 
     .llamada__contenedor__logo{
@@ -68,7 +82,7 @@
 @media (min-width: 600px){
 
     .llamada__contenedor__logo{
-        left:50px; 
+        left: 50px; 
         top: 20pxh;
     }
         
@@ -78,7 +92,6 @@
 }
 
 @media (min-width: 800px){
-
     .llamada__contenedor__logo{
         left:50px; 
         top:20px;
@@ -90,8 +103,6 @@
 }
 
 @media (min-width: 1200px){
-
-     
     .head__logo{
         width: 80vh;
     }
