@@ -3,7 +3,6 @@
     flex-direction: row;
     justify-content: space-around;
     margin: -15 0 5% 0;
-
 }
 
 .sets__boton__div{
@@ -45,7 +44,7 @@
 }
 
 /*Mobile*/
-@media (max-width: 420px) {
+@media (max-width: 500px) {
 
     .sets__infografia{
         width: 100%;
@@ -54,5 +53,14 @@
 
     .sets__infografia__lateral{
         width: 70%;
+    }
+
+    .sets__boton{
+        font-size: 12px ;
+        color: white;
+        cursor: pointer;
+        margin-top: 1rem;
+        padding: .5rem 1rem;
+        box-shadow: 0 0 5px 3px  rgba(0, 0, 0, 0.2);
     }
 }

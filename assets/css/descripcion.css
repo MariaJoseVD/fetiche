@@ -4,11 +4,14 @@
 
 .descripcion__texto{
     display: flex;
-
 }
 
 .descripcion__parrafo{
     padding-top: 0;
+    margin: 0 1rem 2rem;
+}
+
+.descripcion__parrafo_black{
     margin: 0 1rem 2rem;
 }
 
@@ -25,16 +28,37 @@ margin-top: 2rem;
 
 /*Tablet*/
 @media (max-width: 840px){
+
     .descripcion__texto{
         flex-direction: column;
-
     }
 }
 
 /*Mobile*/
-@media (min-width: 426px) {
-    
-    .descripcion__texto{
-        margin: 5%; 
+@media (max-width: 426px) {
+
+    .descripcion__infografia{
+        margin: 1rem 0 1rem;
     }
+    
+    
+    .descripcion__parrafo{
+        padding-top: 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    .descripcion__parrafo_black{
+        margin-bottom: 0.5rem;
+    }
+    
+    .descripcion__parrafo_linea{
+        padding: .75em;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        margin-bottom: 0.5rem;
+    }
+    
+    .interlinea{
+    margin-top: 1rem;
+    }   
 }

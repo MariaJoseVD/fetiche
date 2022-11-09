@@ -1,3 +1,13 @@
 .equipo__texto{
     margin-bottom: 8%;
 }
+
+
+@media (max-width: 500px){
+    .equipo{
+        margin-top: 10%;
+    }
+    .equipo__texto{
+        margin-bottom: 14%;
+    }
+}

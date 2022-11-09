@@ -85,6 +85,14 @@
     }
         
     .head__logo{
+        width: 60vh;
+    }
+}
+
+@media (min-width: 1200px){
+
+     
+    .head__logo{
         width: 80vh;
     }
 }

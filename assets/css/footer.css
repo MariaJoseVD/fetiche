@@ -87,7 +87,7 @@
 }
 
 /*Mobile*/
-@media (max-width: 425px) {
+@media (max-width: 500px) {
 
     .redes{
         display: flex;
@@ -113,8 +113,28 @@
 
     .telefono{
         padding-top: 10%;
+        margin-top: 10px;
         margin-left: 0;
+        font-size: 26px;
     }
     
+    li {
+        padding-top: 8%;
+    }
+
+    .redes{
+        margin: 0;
+    }
+
+    .footer__network__item{
+        padding-top: 0;
+        padding-bottom: 10%;
+    }
+
+    .footer__logo__size{
+        width: auto;
+
+    }
+
 
 }

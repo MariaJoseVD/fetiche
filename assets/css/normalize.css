@@ -126,7 +126,7 @@ sup {
 }
 
 sub {
-  bottom: -0.25em;
+  bottom: 0em;
 }
 
 sup {
@@ -161,6 +161,14 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+}
+
+/*Mobile*/
+@media (max-width: 500px) {
+  input,
+  textarea{
+      font-size: 14px;
+  }
 }
 
 /**

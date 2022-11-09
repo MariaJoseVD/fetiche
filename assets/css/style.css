@@ -85,6 +85,7 @@ p {
     z-index: 997;
   }
 
+
 /*Tablet*/
 @media (max-width: 768px) {
 
@@ -100,15 +101,26 @@ p {
 /*Mobile*/
 @media (max-width: 450px) {
 
+    main{
+        margin: 5% 15% 0 15%;
+        text-align: justify;
+    }
+
+    body {
+        line-height: 1.2;  
+    }
+
     h2 {
-        font-size: 1rem;
+        text-align: center;
+        font-size: .8rem;
     }
 
     h1 {
-        font-size: 1.8rem;
+        text-align: center;
+        font-size: 1.2rem;
     }
 
     p {
-        font-size: 1rem;
+        font-size: 0.6rem;
     }
  }

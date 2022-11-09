@@ -31,3 +31,35 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 500px){
+
+    .beneficios__tittle{
+        margin-bottom: -5%;
+    }
+
+    .beneficios__box{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .beneficios__name{
+        text-align: center;
+    }
+
+    .beneficios__container{
+        padding: 0;
+    }
+
+    .tiempo__img{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .beneficios__name_titulo{
+        margin-top: -10%;
+        margin-bottom: -14%;
+    }
+
+
+}

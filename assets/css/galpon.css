@@ -67,11 +67,30 @@
 }
 
 /*Mobile*/
-@media (max-width: 425px) {
+@media (max-width: 500px) {
     .slider{
         display: flex;
-        height: 200px;
+        height: 150px;
         width: 800%;
         margin-left: -100%;
     }
+
+    .slider__btn{
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+    }
+
+    .galpon__contenedor__logo{
+        display: flex;
+        flex-direction: column;
+        margin-left: 27.5%;
+        width: 40%;
+        padding-bottom: 2%;
+    }
+    
+    .galpon__container__slider{ 
+        width: 100%;
+    }
+    
 }
